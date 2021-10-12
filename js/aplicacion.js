@@ -118,3 +118,8 @@ function mostrar(unNumero){
 function cambiarColorInput(color){
     $('#mostrarNumero').css('background-color', color);
 }
+
+function reiniciar(){
+    $('#mostrarNumero').val("");
+    cambiarColorInput("white");
+}
